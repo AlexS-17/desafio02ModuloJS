@@ -14,7 +14,7 @@ function validarStickers() {
 
     // Verificar la cantidad de stickers y mostrar el mensaje correspondiente
     if (totalStickers > 10) {
-        resultadoSumaStickers.innerHTML = `¡muchos stickers! (${totalStickers})`;
+        resultadoSumaStickers.innerHTML = `¡muchos stickers! Llevas (${totalStickers})`;
         resultadoSumaStickers.style.color = 'red';
     } else {
         resultadoSumaStickers.innerHTML = `${totalStickers} stickers`;
