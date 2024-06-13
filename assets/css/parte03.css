@@ -1,0 +1,31 @@
+.parte03 {
+    border: solid 1px white;
+    border-radius: 5px;
+    margin: 0 15rem;
+}
+
+.enterPassword {
+    margin: 0.5rem;
+}
+
+.selectPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;;
+}
+
+.btnPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .parte03 {
+        border: solid 1px white;
+        border-radius: 5px;
+        margin: 0 2rem;
+    }
+}

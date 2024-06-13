@@ -1,0 +1,70 @@
+.parte02 {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.parte02__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.parte02__cardSticker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Ejemplo de ancho para la tarjeta */
+    box-sizing: border-box;
+    border: 1px solid yellow;
+    border-radius: 0.2rem;
+}
+
+.cardSticker__img {
+    width: 180px;
+    height: 100px;
+    margin: 10px 0 10px 0;
+}
+
+.cardSticker__img2 {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 10px 0;
+}
+
+.cardSticker__input {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.cardSticker__input input {
+    width: 50%; 
+    box-sizing: border-box;
+    border: 1px solid yellow;
+    border-radius: 0.1rem;
+}
+
+.parte02__validacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.parte02__validacion--information{
+    
+    margin: 1rem;
+}
+
+@media (max-width: 768px) {
+    .parte02__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 2rem;
+    }
+}

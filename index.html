@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 02 - Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/parte01.css" />
+    <link rel="stylesheet" href="./assets/css/parte02.css" />
+    <link rel="stylesheet" href="./assets/css/parte03.css">
+  </head>
+  <body>
+    <div class="title">
+      <h1>Desafio 02 - condiciones</h1>
+    </div>
+
+    <!-- Parte 01 del desafío -->
+    <div class="parte01">
+      <h2>Parte 01 - Imagen con y sin borde</h2>
+      <img
+        class="imgBlackGoku"
+        id="imgBlackGoku"
+        src="./assets/img/blackGoku.jpg"
+        alt="Goku black"
+        onclick="bordearImagen()"
+      />
+    </div>
+
+    <!-- Parte 02 del desafío -->
+    <div class="parte02">
+
+      <div class="title">
+        <h2>Parte 02 - Stickers</h2>
+        <p>Puedes llevar hasta 10 stickers en total</p>
+      </div>
+
+<!-- Cards -->
+<div class="parte02__cards">
+
+  <!-- Card 01 -->
+  <div class="parte02__cardSticker">
+      <div>
+          <img class="cardSticker__img" src="./assets/img/sticker01.png" alt="Sticker goku niño" />
+      </div>
+      <div class="cardSticker__input">
+          <input id="sticker1" type="number" min="0" max="10" value="0" placeholder="00" />
+      </div>
+  </div>
+
+  <!-- Card 02 -->
+  <div class="parte02__cardSticker">
+      <div>
+          <img class="cardSticker__img2" src="./assets/img/sticker02.png" alt="Sticker vegeta" />
+      </div>
+      <div class="cardSticker__input">
+          <input id="sticker2" type="number" min="0" max="10" value="0" placeholder="00" />
+      </div>
+  </div>
+
+  <!-- Card 03 -->
+  <div class="parte02__cardSticker">
+      <div>
+          <img class="cardSticker__img2" src="./assets/img/sticker03.png" alt="Sticker bulma" />
+      </div>
+      <div class="cardSticker__input">
+          <input id="sticker3" type="number" min="0" max="10" value="0" placeholder="00" />
+      </div>
+  </div>
+</div>
+
+<div class="parte02__validacion">
+  <p class="parte02__validacion--information">Llevas: <span id="totalStickers">0</span></p>
+  <button onclick="validarStickers()">Verificar</button>
+</div>
+    </div>
+
+    <!-- Parte 03 del desafío -->
+     <div class="parte03">
+      <div class="title">
+        <h2>Parte 03 - Password</h2>
+        <p class="enterPassword">Ingresa el password</p>
+        <p id="result"></p>
+      </div>
+
+      <div class="selectPassword">
+
+        <select id="digito1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+      </select>
+
+      <select id="digito2">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+      </select>
+
+      <select id="digito3">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+      </select>
+      </div>
+
+      <div class="btnPassword">
+      <button onclick="verifyPassword()">Ingresar</button>
+      </div>
+      
+     </div>
+
+    <script src="./assets/js/parte01.js"></script>
+    <script src="./assets/js/parte02.js"></script>
+    <script src="./assets/js/parte03.js"></script>
+  </body>
+</html>

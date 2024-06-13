@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mostrarTotal {
+    color: yellow;
+}
+
+

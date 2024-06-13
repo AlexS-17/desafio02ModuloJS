@@ -1,0 +1,13 @@
+.parte01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.imgBlackGoku {
+    width: 200px;
+    height: 300px;
+}
